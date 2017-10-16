@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@font-face {
+    font-family: NanumGothic;
+    src: url(../font/NanumGothic.eot);
+    src: url(../font/NanumGothic.eot?#iefix) format('embedded-opentype'),
+        url(../font/NanumGothic.woff) format('woff'),
+        url(../font/NanumGothic.ttf) format('truetype');
+}
+@font-face { 
+    font-family: MalgunGothic;
+    src: url(../font/MalgunGothic.eot);
+    src: url(../font/MalgunGothic.eot?#iefix) format('embedded-opentype'),
+        url(../font/MalgunGothic.woff) format('woff'),
+        url(../font/MalgunGothic.ttf) format('truetype');
+}
+@font-face {
+    font-family: Helvetica;
+    src: url(../font/Helvetica.eot);
+    src: url(../font/Helvetica.eot?#iefix) format('embedded-opentype'),
+        url(../font/Helvetica.woff) format('woff'),
+        url(../font/Helvetica.ttf) format('truetype');
+}
+@font-face { 
+    font-family: verdana;
+    src: url(../font/verdana.eot);
+    src: url(../font/verdana.eot?#iefix) format('embedded-opentype'),
+        url(../font/verdana.woff) format('woff'),
+        url(../font/verdana.ttf) format('truetype');
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -10,19 +10,21 @@ a{text-decoration:none;color:#333;}
 em{font-style:normal;}
 
 /*평점&리뷰*/
-.rating_review_wrap{padding:0 34px;width:808px;margin:0 auto;}
-.rating_review_wrap h1{padding-top:12px;font-size:31px;line-height:96px;border-bottom:2px dashed #aeaeae;}
-.rating_review{overflow:hidden;padding:19px 0 21px 0;}
+.rating_review_wrap{padding:12px 34px 0 34px;width:808px;margin:0 auto;}
+.rating_review_wrap h1{font-size:31px;line-height:96px;border-bottom:2px dashed #aeaeae;}
+.rating_review{padding:19px 0 21px 0;}
+.rating_review:after{content:"";display:block;clear: both;}
 .rating_review_img{float:left;width:15%; text-align:left;}
-.rating_review_img a{display:inline-block;}
-.rating_review_img img{width:102px;height:145px;}
+.rating_review_img a{display:inline-block;width:102px;height:145px;}
+.rating_review_img img{width: 100%;height: 100%;}
 .rating_review_img + .rating_review_inner{float:left;width:85%;}
 .rating_review_inner{width:100%;}
-.rating_review_inner_top{overflow:hidden;border-bottom:2px solid #efefef;margin-top:2px;padding-bottom:13px;}
+.rating_review_inner_top{padding:2px 0 13px 0;border-bottom:2px solid #efefef;}
+.rating_review_inner_top:after{content:"";display: block;clear: both;}
 .rating_review_inner_top .star_grade_wrap{float:right;}
 .rating_review_tit{float:left;max-width:73%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
-.rating_review_tit a{height:24px;font-size:24px;line-height:24px;color:#00f;}
-.rating_review_txt{margin-top:-15px;height:116px;line-height:30px;white-space:pre-line;overflow:hidden;letter-spacing:-1px;}
+.rating_review_tit a{font-size:24px;line-height:24px;color:#00f;}
+.rating_review_txt{padding-top:16px;line-height:30px;letter-spacing:-1px;}
 
 /* 별점 */
 .star_grade_wrap{overflow: hidden;}

@@ -14,11 +14,10 @@ em{font-style:normal;}
 .rating_review_wrap h1{font-size:31px;line-height:96px;border-bottom:2px dashed #aeaeae;}
 .rating_review{padding:19px 0 21px 0;}
 .rating_review:after{content:"";display:block;clear: both;}
-.rating_review_img{float:left;width:15%; text-align:left;}
-.rating_review_img a{display:inline-block;width:102px;height:145px;}
+.rating_review_img{float:left;text-align:left;}
+.rating_review_img a{display:inline-block;width:102px;height:145px;margin-right: 19px;}
 .rating_review_img img{width: 100%;height: 100%;}
-.rating_review_img + .rating_review_inner{float:left;width:85%;}
-.rating_review_inner{width:100%;}
+.rating_review_img + .rating_review_inner{float:left;width: 85%;}
 .rating_review_inner_top{padding:2px 0 13px 0;border-bottom:2px solid #efefef;}
 .rating_review_inner_top:after{content:"";display: block;clear: both;}
 .rating_review_inner_top .star_grade_wrap{float:right;}

@@ -24,6 +24,7 @@ em{font-style:normal;}
 .rating_review_tit{float:left;max-width:73%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
 .rating_review_tit a{font-size:24px;line-height:24px;color:#00f;}
 .rating_review_txt{padding-top:16px;line-height:30px;letter-spacing:-1px;}
+.rating_review_txt a {width:100%;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
 
 /* 별점 */
 .star_grade_wrap{overflow: hidden;}

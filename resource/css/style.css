@@ -8,6 +8,7 @@ ul{list-style:none;}
 img{border:0;vertical-align:top;}
 a{text-decoration:none;color:#333;}
 em{font-style:normal;}
+.blind {overflow:hidden;position:absolute;clip: rect(0,0,0);width: 1px;height: 1px;margin:-1px;}
 
 /*평점&리뷰*/
 .rating_review_wrap{padding:12px 34px 0 34px;width:808px;margin:0 auto;}
@@ -29,7 +30,7 @@ em{font-style:normal;}
 /* 별점 */
 .star_grade_wrap{overflow: hidden;}
 .star_grade{float: left; display: block; margin-right: 20px;width: 126px;height: 22px;background: url(../images/star_bg.png)repeat-x 0 -25px; background-size:126px;}
-.star_grade_bg{background: url(../images/star_bg.png) repeat-x 0 0;display: block;height: 22px; font-size: 1px;text-indent: -9999px;background-size:126px;}
+.star_grade_bg{background: url(../images/star_bg.png) repeat-x 0 0;display: block;height: 22px; font-size: 1px; background-size:126px;}
 .star_grade_num{float: left;font-size: 18px; color: #666;font-weight: bold;letter-spacing: -1px;}
 
 
